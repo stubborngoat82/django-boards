@@ -1,0 +1,189 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "81bc9bb68d5400e2ee4cfda1b9979f63",
+    "packages": [
+        {
+            "name": "arokettu/is-resource",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arokettu/is-resource.git",
+                "reference": "1143639fb55e1430b518acda273c84c9fa98ff7b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arokettu/is-resource/zipball/1143639fb55e1430b518acda273c84c9fa98ff7b",
+                "reference": "1143639fb55e1430b518acda273c84c9fa98ff7b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.3 < 8.4"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/functions.php"
+                ],
+                "classmap": [
+                    "gen/ResourceMap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anton Smirnov",
+                    "email": "sandfox@sandfox.me",
+                    "homepage": "https://sandfox.me/",
+                    "role": "developer"
+                }
+            ],
+            "description": "Future compatible is_resource() and get_resource_type() that can understand opaque objects",
+            "homepage": "https://sandfox.dev/php/is-resource.html",
+            "keywords": [
+                "compatibility",
+                "curl",
+                "gd",
+                "get_resource_type",
+                "hash",
+                "is_resource",
+                "pgsql",
+                "php80",
+                "php81",
+                "resources",
+                "sockets"
+            ],
+            "support": {
+                "docs": "https://is-resource.readthedocs.io/",
+                "issues": "https://gitlab.com/sandfox/is-resource/-/issues",
+                "source": "https://gitlab.com/sandfox/is-resource"
+            },
+            "time": "2023-08-28T12:32:54+00:00"
+        },
+        {
+            "name": "arokettu/monsterid",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arokettu/monsterid.git",
+                "reference": "e0541332b55e45fd01a9cb5e355d4084ec870e49"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arokettu/monsterid/zipball/e0541332b55e45fd01a9cb5e355d4084ec870e49",
+                "reference": "e0541332b55e45fd01a9cb5e355d4084ec870e49",
+                "shasum": ""
+            },
+            "require": {
+                "arokettu/is-resource": "^1.0",
+                "arokettu/random-polyfill": "^1.0.1",
+                "ext-gd": "*",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">= 7.0 < 10",
+                "psy/psysh": "*",
+                "sandfox.dev/code-standard": "^1",
+                "squizlabs/php_codesniffer": "*",
+                "vimeo/psalm": "^5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/functions.php"
+                ],
+                "psr-4": {
+                    "Arokettu\\MonsterID\\": "src/classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Gohr",
+                    "homepage": "https://www.splitbrain.org/",
+                    "role": "developer"
+                },
+                {
+                    "name": "Anton Smirnov",
+                    "email": "sandfox@sandfox.me",
+                    "homepage": "https://sandfox.me/",
+                    "role": "maintainer"
+                }
+            ],
+            "description": "MonsterID is a method to generate a unique monster image based upon a certain identifier (IP address, email address, whatever). It can be used to automatically provide personal avatar images in blog comments or other community services.",
+            "homepage": "https://sandfox.dev/php/monsterid.html",
+            "keywords": [
+                "avatar",
+                "monsterid"
+            ],
+            "support": {
+                "docs": "https://monsterid.readthedocs.io/",
+                "issues": "https://gitlab.com/sandfox/monsterid/-/issues",
+                "source": "https://gitlab.com/sandfox/monsterid"
+            },
+            "time": "2023-09-07T17:53:11+00:00"
+        },
+        {
+            "name": "arokettu/random-polyfill",
+            "version": "1.99.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arokettu/php-random-polyfill.git",
+                "reference": "c17671cc6ee4a466c2a5a2bc051672d4927dd230"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arokettu/php-random-polyfill/zipball/c17671cc6ee4a466c2a5a2bc051672d4927dd230",
+                "reference": "c17671cc6ee4a466c2a5a2bc051672d4927dd230",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 8.2"
+            },
+            "type": "metapackage",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Anton Smirnov",
+                    "email": "sandfox@sandfox.me",
+                    "homepage": "https://sandfox.me/",
+                    "role": "developer"
+                }
+            ],
+            "description": "Random Extension Polyfill for PHP",
+            "homepage": "https://sandfox.dev/php/random-polyfill.html",
+            "keywords": [
+                "polyfill",
+                "random"
+            ],
+            "support": {
+                "chat": "https://gitter.im/arokettu/community",
+                "docs": "https://php-random-polyfill.readthedocs.io/",
+                "issues": "https://gitlab.com/sandfox/php-random-polyfill/-/issues",
+                "source": "https://gitlab.com/sandfox/php-random-polyfill"
+            },
+            "time": "2022-09-01T22:23:28+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

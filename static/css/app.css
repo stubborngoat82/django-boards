@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'GeostarFill';
+    src: url(../fonts/GeostarFill-Regular.ttf);
+}
+
+
+
+.navbar-brand {
+    font-family: 'GeostarFill';
+  }
+
+
+.first-card {
+    border: 2px solid darkslateblue;
+}
+.card-header {
+    background-color: indigo;
+}
